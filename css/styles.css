@@ -1,0 +1,241 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color-dark-first: #212121;
+  --main-color-dark-second: #757575;
+  --main-color-light-first: #FFFFFF;
+  --logo-color: #000000;
+  --footer-hero-color: #2F303A;  
+  --modal-button-color: #188CE8;
+  --background-team: #F5F4FA;
+  --filter-button-color: #F5F4FA;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+button{
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color-dark-first);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--main-color-light-first);
+  font-weight: normal;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;  
+  color: var(--logo-color);
+}
+
+.logo-blue-fragment {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;  
+  color: var(--accent-color);
+}
+
+.mainmenu-item-link {
+  font-style: normal;
+  font-weight: 500;  
+  line-height: 1.14;
+  letter-spacing: 0.02em;  
+  color: var(--main-color-dark-first);
+}
+
+.mainmenu-item-link:hover,
+.mainmenu-item-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts-link {
+  font-style: normal;
+  font-weight: 500;  
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color-dark-second);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--footer-hero-color);
+}
+
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color-light-first);
+}
+
+.modal-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-color-light-first);
+    background-color: var(--accent-color);         
+}
+
+.modal-button:hover,
+.modal-button:focus
+ {
+  background-color: var(--modal-button-color);
+}
+
+.vusual-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.feature-item-header {
+  font-style: normal;
+  font-weight: bold;  
+  line-height: 1.14;  
+  text-transform: uppercase;  
+}
+
+.feature-item-description {      
+  line-height: 1.71;  
+  color: var(--main-color-dark-second);
+}
+
+.aboutus-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;   
+}
+
+.team{
+  background: var(--background-team);
+}
+
+.team-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;   
+}
+
+.team-card-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;  
+  text-align: center;       
+}
+
+.team-card-job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;  
+  color: var(--main-color-dark-second);
+}
+
+.filter-button{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;    
+  background-color: var(--filter-button-color);
+  border-radius: 4px;
+  color: var(--main-color-dark-first);
+}
+.filter-button:hover,
+.filter-button:focus{
+  background: var(--accent-color);
+  color: var(--main-color-light-first);
+}
+
+.portfolio-card-name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;  
+}
+
+.portfolio-card-description{    
+  font-size: 16px;
+  line-height: 1.87;  
+  color: var(--main-color-dark-second);
+}
+
+.footer {  
+  background-color: var(--footer-hero-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;  
+  color: var(--main-color-light-first);
+}
+
+.footer-address {
+  font-style: normal;  
+  line-height: 2;  
+  color: var(--main-color-light-first);
+}
+
+.footer-address:hover,
+.footer-address:focus{
+  color: var(--accent-color);
+}
+
+.footer-contacts-item {
+  font-style: normal;
+  font-weight: 400;  
+  line-height: 2;  
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-item:hover,
+.footer-contacts-item:focus{
+  color: var(--accent-color);
+}
