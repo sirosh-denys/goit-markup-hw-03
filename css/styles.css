@@ -32,8 +32,7 @@ body {
   color: var(--main-color-dark-first);
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color: var(--main-color-light-first);
-  font-weight: normal;
+  background-color: var(--main-color-light-first);  
 }
 
 .logo {
@@ -59,6 +58,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;  
   color: var(--main-color-dark-first);
+}
+
+.current{
+  color: var(--accent-color);
 }
 
 .mainmenu-item-link:hover,
@@ -127,9 +130,9 @@ body {
   overflow: hidden;
 }
 
-.feature-item-header {
-  font-style: normal;
-  font-weight: bold;  
+.feature-item-header {  
+  font-weight: 700;  
+  font-size: 14px;
   line-height: 1.14;  
   text-transform: uppercase;  
 }
@@ -183,6 +186,7 @@ body {
   background-color: var(--filter-button-color);
   border-radius: 4px;
   color: var(--main-color-dark-first);
+  letter-spacing: 0.03em;
 }
 .filter-button:hover,
 .filter-button:focus{
