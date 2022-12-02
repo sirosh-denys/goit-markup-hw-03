@@ -10,18 +10,6 @@
   --filter-button-color: #F5F4FA;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
 button{
   cursor: pointer;
   font-family: inherit;
@@ -34,6 +22,37 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--main-color-light-first);  
 }
+
+/*
+  Reset start
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*
+  Reset end
+*/
 
 .logo {
   font-family: 'Raleway', sans-serif;
