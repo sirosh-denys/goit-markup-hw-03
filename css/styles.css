@@ -54,10 +54,26 @@ img {
   Reset end
 */
 
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.hrader-container{
+  display: flex;
+  align-items: center;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .logo {
@@ -67,6 +83,8 @@ img {
   font-size: 26px;
   line-height: 1.19;  
   color: var(--logo-color);
+  margin-right: 93px;
+  display: block;
 }
 
 .logo-blue-fragment {
@@ -77,12 +95,23 @@ img {
   color: var(--accent-color);
 }
 
+.mainmenu-list{
+  display: flex;
+  align-items: center;  
+}
+
+.mainmenu-item:not(:last-child){
+  margin-right: 50px;
+}
+
 .mainmenu-item-link {
   font-style: normal;
   font-weight: 500;  
   line-height: 1.14;
   letter-spacing: 0.02em;  
   color: var(--main-color-dark-first);
+  display: block;
+  padding: 32px 0px;
 }
 
 .current{
@@ -94,12 +123,23 @@ img {
   color: var(--accent-color);
 }
 
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-contacts-item:not(:last-child){
+  margin-right: 50px;
+}
+
 .header-contacts-link {
   font-style: normal;
   font-weight: 500;  
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color-dark-second);
+  display: block;
+  padding: 32px 0px;
 }
 
 .header-contacts-link:hover,
@@ -155,11 +195,21 @@ img {
   overflow: hidden;
 }
 
+.features-list {
+  display: flex;
+  gap: 30px;
+}
+
+.feature-item {
+  width: 270px;
+}
+
 .feature-item-header {  
   font-weight: 700;  
   font-size: 14px;
   line-height: 1.14;  
   text-transform: uppercase;  
+  margin-bottom: 10px;
 }
 
 .feature-item-description {      
