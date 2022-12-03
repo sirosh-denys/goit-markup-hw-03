@@ -63,11 +63,13 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 2px solid red;
 }
 
-.hrader-container{
+.header-container{
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #808080;
 }
 
 .navigation{
@@ -223,6 +225,19 @@ img {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;   
+  /*width: 366px;  
+  margin: auto;*/  
+}
+
+.aboutus-list{
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 29px;  
+}
+
+.aboutus-item{
+  flex-basis: calc((100% - 29px * 2) / 3);
 }
 
 .team{
@@ -234,7 +249,24 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;   
+  text-align: center;  
+  margin-bottom: 50px; 
+}
+
+.team-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-card{
+  flex-basis: calc((100% - 30px * 3) / 4);
+}
+
+.team-wrapper{
+  padding-top: 30px;  
+  border: 1px solid #808080;
+  border-top: none;
 }
 
 .team-card-name {
@@ -242,7 +274,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;  
-  text-align: center;       
+  text-align: center;    
+  margin-bottom: 8px;   
 }
 
 .team-card-job-title {
@@ -250,6 +283,7 @@ img {
   line-height: 1.19;
   text-align: center;  
   color: var(--main-color-dark-second);
+  margin-bottom: 30px;
 }
 
 .filter-button{
@@ -288,12 +322,15 @@ img {
 }
 
 .footer-logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;  
   color: var(--main-color-light-first);
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-address {
@@ -305,6 +342,11 @@ img {
 .footer-address:hover,
 .footer-address:focus{
   color: var(--accent-color);
+}
+
+.footer-contacts{
+  display: block;
+  padding-bottom: 60px;
 }
 
 .footer-contacts-item {
