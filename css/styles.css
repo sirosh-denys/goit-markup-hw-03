@@ -32,7 +32,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -63,7 +64,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 .header-container{
@@ -286,6 +287,13 @@ img {
   margin-bottom: 30px;
 }
 
+.filter-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
 .filter-button{
   font-style: normal;
   font-weight: 500;
@@ -303,12 +311,29 @@ img {
   color: var(--main-color-light-first);
 }
 
+.portfolio-cards-list{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.portfolio-card{
+  flex-basis: calc((100% - 30px * 2) / 3);
+}
+
+.portfolio-wrapper{
+  padding: 20px 24px;
+  border: 1px solid #808080;
+  border-top: none;
+}
+
 .portfolio-card-name{
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;  
+  margin-bottom: 4px;
 }
 
 .portfolio-card-description{    
